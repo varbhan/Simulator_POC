@@ -1,0 +1,37 @@
+{
+  "name": "react_poc_simulator",
+  "version": "1.0.0",
+  "description": "POC",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.20.3"
+  },
+  "scripts": {
+    "build-dev": "webpack -d --watch --colors --config webpack.dev.config.js",
+    "build-prod": "webpack -p",
+    "start-dev": "webpack-dev-server --config webpack.dev.config.js",
+    "start-prod": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "NA"
+  },
+  "author": "Infosys",
+  "license": "ISC"
+}
